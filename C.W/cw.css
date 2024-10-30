@@ -3,15 +3,14 @@
 width: 1440px;
 height: 5393px;
 }
-.h1{
+.header-1 h1{
     color: #222;
     font-family: Poppins,sun sans-serif;
     font-size: 40px;
     font-style: normal;
     line-height: 62px; /* 155% */
-    background: #FAF4F2;
-    margin: 8%;
-
+  text-align: left;
+  margin: 10px;
 }
 h3{
     color: #222;
@@ -32,7 +31,7 @@ h3{
     gap: 25px;
 }
 .header-1{
-    margin: 8%;
+    text-align: revert;
 }
 .soc-media{
     color: #222;
@@ -41,7 +40,6 @@ h3{
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
-    margin: 8%;
 }
 .button-red{
     width: 151px;
@@ -77,7 +75,8 @@ h3{
     display: flex;
     justify-items: center;
     gap: 40px;
-    margin: 8%;
+    margin: 5%;
+    float: left;
 }
 .tran-logo{
     width: 430px;
